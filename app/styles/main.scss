@@ -19,6 +19,15 @@ body {
     transform: translate(-50%, 0);
 }
 
+/* Custom page header */
+.header {
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
