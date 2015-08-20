@@ -1,0 +1,41 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#container {
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    #container {
+        position: absolute;
+        left: 50%;
+
+        transform: translate(-50%, 0);
+    }
+}
+
+//Enview styles
+
+#image {
+    width: 1000px;
+    height: 1000px;
+
+    background-image: url("/images/4_report_image.jpg");
+    background-size: 100%;
+}
